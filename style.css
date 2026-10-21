@@ -1,7 +1,7 @@
 :root {
     --cor-fundo: #eed6e2;
     --cor-texo: #02050e;
-    --cor-principal: #c5d4e4;
+    --cor-principal: #2d65a0;
     --cor-secundaria: #9b4d83;
     --cor-hover: #ca8ef8;
     --cor-superficie: white;
@@ -129,4 +129,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
-,cards-curiosidades
+,cards-curiosidades{
+    disolay: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
