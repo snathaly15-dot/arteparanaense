@@ -11,6 +11,7 @@ function curtir (){
         contador.textContent --;
         curtiu = false;
     }
+}
 });
 
 const btnTema = document.querySelector(".btn-tema");
